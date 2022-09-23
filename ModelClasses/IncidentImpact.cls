@@ -9,5 +9,9 @@ public with sharing class IncidentImpact implements SObjectConverter{
 		public String startTimeCreatedAt;
 		public String startTimeModifiedAt;
 		public String endTimeCreatedAt;
-		public cls_endTimeModifiedAt endTimeModifiedAt;
+		public String endTimeModifiedAt;
+
+		public SObject toSObject(Id incidentId){
+			return null;
+		}
 	}

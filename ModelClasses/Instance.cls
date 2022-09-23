@@ -16,5 +16,8 @@ public with sharing class Instance implements SObjectConverter{
 	public Product[] Products;
 	public Incident[] Incidents;
 	public Maintenance[] Maintenances;
-	public Tag[] Tags;
+
+	public SObject toSObject(Id incidentId){
+		return null;
+	}
 }
